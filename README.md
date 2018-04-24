@@ -1,0 +1,1 @@
+This repository is for practicing Front End Development (HTML/CSS) by building Google homepage, which is one of the projects suggested by OdinProject course website.
