@@ -1,1 +1,1 @@
-This repository is for practicing Front End Development (HTML/CSS) by building Google homepage, which is one of the projects suggested by OdinProject course website.
+This repository is for practicing Front End Development (HTML/CSS) by building Google homepage, which is one of the projects suggested by OdinProject course website (http://www.theodinproject.com/courses/web-development-101/lessons/html-css).
