@@ -1,0 +1,91 @@
+body {
+  /*position: relative;*/
+}
+
+.top {
+  display: grid;
+  justify-content: end;
+  justify-items: center;
+  align-items: center;
+  grid-template: 40px / repeat(5, 50px);
+}
+
+
+.google {
+  width: 300px;
+  height: 200px;
+  margin-left: 42%;
+  margin-top: 100px;
+}
+
+.bar {
+  display: grid;
+  grid-template: 45px / 3fr 4fr 3fr;
+  align-content: end;
+}
+
+.search {
+  width: 100%;
+  grid-column-start: 2;
+  /*height: 30px;*/
+}
+
+.button {
+  width: 130px;
+  height: 40px;
+}
+
+.foo {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  margin-top: 20px;
+  justify-content: center;
+  justify-items: center;
+  margin-bottom: 20px;
+}
+
+.but1 {
+  grid-column-start: 5;
+}
+
+.but2 {
+  grid-column-start: 6;
+}
+
+.main p {
+  margin-top: 2px;
+  text-align: center;
+  line-height: 30px;
+  font-family: Helvetica;
+}
+
+.new {
+  color: red;
+}
+
+.alien, .available {
+  color: blue;
+}
+
+footer {
+  display: grid;
+  position: absolute;
+  text-align: center;
+  font-family: sans-serif;
+  bottom: 0;
+  width: 100%;
+  grid-template: repeat(2, 30px) / 1fr 1fr 1fr 20fr 1fr 1fr 1fr;
+  background-color: rgb(230, 230, 230);
+  align-items: center;
+  font-size: 12px;
+}
+
+footer p {
+  grid-row-start: 1;
+  /*background-color: grey;*/
+}
+
+.lnk {
+  grid-row-start: 2;
+  justify-items: center;
+}
